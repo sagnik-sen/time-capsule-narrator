@@ -1,1 +1,16 @@
 .venv/
+# Ignore virtual environments
+.venv/
+
+# Ignore PyTorch binaries (just in case)
+*.dll
+*.lib
+*.pt
+
+# Ignore model weights and outputs (if needed)
+outputs/
+*.wav
+*.bin
+*.ckpt
+*.safetensors
+
